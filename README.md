@@ -1,6 +1,6 @@
 # Fotoapparat
 
-![Build status](https://travis-ci.org/Fotoapparat/Fotoapparat.svg?branch=master)
+![Build status](https://travis-ci.org/RedApparat/Fotoapparat.svg?branch=master)
 
 
 ![ ](sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
@@ -166,7 +166,7 @@ repositories {
   maven { url 'https://jitpack.io' }
 }
  
-implementation 'io.fotoapparat.fotoapparat:library:2.2.0'
+implementation 'io.fotoapparat.fotoapparat:library:2.3.1'
 ```
 
 Camera permission will be automatically added to your `AndroidManifest.xml`. Do not forget to request this permission on Marshmallow and higher.
